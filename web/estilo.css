@@ -1,0 +1,108 @@
+body
+{
+background: #222;
+color: #EEE;
+font-family: Arial;
+font-size: 16px;
+text-align: center;
+
+}
+header
+{
+background: url(logo100.png)no-repeat 95% center;
+url("fondo.jpg");
+background-size: 200px,100px,100px;
+margin: 0 0 1em 0;
+padding: 0.5em 0
+width:100px;	
+}
+header h1{
+
+	margin:0;
+	text-shadow: #fff 5px 5px 10px;
+
+}
+header h2{
+
+	margin: 0;
+	font-weight: normal;
+	text-shadow: #9ACD32 5px 5px 10px;
+
+}
+#historia
+{
+	background: rgba(0,0,0,0.6);
+	border-radius: 8px;
+	box-shadow: rgba(255,255,255,0.5)5px 5px 10px;
+	margin: 0.2% 16px 16px;
+	padding: 1em;
+	text-align: justify;
+	width: 40%;
+}
+#menu{
+	text-align: justify;
+}
+#menu2{
+	text-align:justify;
+}
+#carro
+{
+	background: white;
+	color: #2f2b2b;
+	text-align: left;
+	width: 50%
+}
+#carro figcaption
+{
+	margin: 16px;
+}
+#carro img
+{
+	width: 100%
+}
+#carro, #historia
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav
+{
+	background: rgba(60,60,180,0.8);
+	bottom: 0;
+	color: #EEE;
+	font-size: 24px;
+	left: 0;
+	padding: 16px 0;
+	position: fixed;
+	width: 100%
+}
+nav ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li
+{
+	display: inline-block;
+}
+nav ul li a
+{
+	background: #d23d15;
+	border-radius: 8px;
+	color: white;
+	display: inline-block;
+	margin: 0 16px 0 0;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: all 0.5% ease;
+	-webkit-transition:all 0.5s ease;
+}
+nav ul li a:hover
+{
+	background: #fff;
+	color: black;
+	transform: scale(1.2) rotate(-5deg);
+	-webkit-transition:scale(1.2) rotate(-5deg);
+}
